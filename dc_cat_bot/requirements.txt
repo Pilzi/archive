@@ -1,0 +1,4 @@
+aiohttp==3.11.9
+discord.py==2.4.0
+praw==7.8.1
+Requests==2.32.3

@@ -1,7 +1,8 @@
 # Old projects
 
-Small projects I made before I used Git, collected here so they don't get lost.
+Small early projects, collected here so they don't get lost.
 Experiments, not maintained.
 
 - [javaChess](javaChess/) – two-player chess in Java Swing (2024)
-- - [2048-javafx](2048-javafx/) – 2048 clone in JavaFX (2024)
+- [2048-javafx](2048-javafx/) – 2048 clone in JavaFX (2024)
+- [dc_cat_bot](dc_cat_bot/) – Discord bot that sends cat pictures from Reddit (Python, 2024)
