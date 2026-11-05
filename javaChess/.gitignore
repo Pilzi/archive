@@ -1,0 +1,23 @@
+# build output
+bin/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# saved games and settings, written while playing
+chessBoardSave.txt
+moveLog.txt
+color.txt
+resolution.txt
+
+# fonts that are unused or may not be shared
+src/fonts/DIMITRI_.TTF
+src/fonts/DIMIS___.TTF
+src/fonts/Handjet-*.ttf
+!src/fonts/Handjet-Medium.ttf
+
+# old background image of unknown origin, replaced by an own image
+src/assets/background-old.png
