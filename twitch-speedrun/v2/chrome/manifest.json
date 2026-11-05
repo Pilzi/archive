@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Speedrun V2",
+  "version": "0.1.0",
+  "description": "Opens a Twitch stream as soon as the streamer goes live",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Twitch Speedrun V2",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab",
+    "storage",
+    "alarms",
+    "identity",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://www.twitch.tv/*"
+  ]
+}
