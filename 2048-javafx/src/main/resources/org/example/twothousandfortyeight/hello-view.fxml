@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Region?>
+
+
+
+<GridPane fx:controller="org.example.twothousandfortyeight.GameBoardController" xmlns:fx="http://javafx.com/fxml" onKeyPressed="#handleKeyPressed" fx:id="gameBoard" > </GridPane>
+
+
+
